@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Modificar Traslado</title>
+</head>
+<div class="container">
+    <div class="row">
+        <form class="col s12">
+            <div class="row">
+                <div class="input-field col s6">
+                    <i class="material-icons prefix">child_care</i>
+                    <input id="nombre_estudiante" type="text" class="validate">
+                    <label for="nombre_estudiante">Nombre Estudiante</label>
+                </div>
+            </div>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">assignment_ind</i>
+                            <input id="documento" type="number" class="validate">
+                            <label for="documento">Documento</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <i class="material-icons prefix">arrow_forward</i>
+                                    <input id="curso_actual" type="text" class="validate">
+                                    <label for="curso_actual">Curso Actual</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s6">
+                                            <i class="material-icons prefix">arrow_forward</i>
+                                            <input id="curso_nuevo" type="text" class="validate">
+                                            <label for="curso_nuevo">Curso Nuevo</label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <form class="col s12">
+                                            <div class="row">
+                                                <div class="input-field col s6">
+                                                    <i class="material-icons prefix">assignment</i>
+                                                    <input id="detalle" type="text" class="validate">
+                                                    <label for="detalle">Detalle</label>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="input-field col s6">
+                                                    <select class="browser-default" id="estado">
+                                                        <option value="" disabled selected>Elegir el estado</option>
+                                                        <option value="true">Activo</option>
+                                                        <option value="false">Inactivo</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="input-field col s6">
+                                                    <button id="btnActualizar" class="btn waves-effect waves-light" type="button" name="action">Actualizar
+                                                        <i class="material-icons right">send</i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="../js/funcion2.js"></script>
+
+    
+</body>
+</html>
